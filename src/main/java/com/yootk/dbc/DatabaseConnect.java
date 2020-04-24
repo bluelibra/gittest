@@ -50,6 +50,5 @@ public class DatabaseConnect {
     public static void main(String[] args) {
         System.out.println("==conn==" + DatabaseConnect.getConnection());
         DatabaseConnect.close();
-        System.out.println("==conn==close==");
     }
 }
